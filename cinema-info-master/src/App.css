@@ -1,0 +1,114 @@
+
+ body{
+	 font-family: Arial, Helvetica, sans-serif;
+	 font-size: 16px;
+	background: rgba(232, 238, 238, 1);
+ } 
+  .App-header {
+	text-align: center;
+	background-color: #222;
+	padding: 40px;
+	margin: 20px;
+	color: white;
+  }
+  
+  h1.App-title {
+	font-size: 1.5em;
+	margin: 0;
+  }
+
+  .container {
+	color: white;
+  }
+  ul.cards{
+	list-style: none;
+	padding: 0;
+	}
+
+  li.card {
+	  margin-bottom: 30px;
+	  border: none;	
+	  background-color: transparent;
+  }
+  .card-in{
+		display: flex;
+		flex-direction: column;
+	height: 100%;
+	border: #222 3px solid;
+	background: rgba(24, 22, 22, 0.801);
+  }
+  img{
+	width: 100%;
+}
+.card-title {
+	flex: 1 0 auto;
+	padding: 15px 15px 0 15px;
+	font-size: 20px;
+	color: rgb(115, 129, 247);
+  }
+
+  .card-details{
+	  padding: 15px;
+  }
+  .card-meta{
+	  padding-bottom: 10px;
+  }
+
+	button{
+		font-size: 18px;
+		background: rgb(115, 129, 247);
+		color: #fff;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+	button:hover{
+		background: rgb(5, 15, 99);
+	}
+	#btn-delete{
+		margin-right: 15px;
+	}
+	#btn-add{
+		position: fixed;
+		top: 100px;
+		left: 0px;
+		z-index: 999;
+		border-radius: 0 5px 5px 0;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		font-weight: bold;
+	}
+	
+/*Modal*/
+.modal{
+	text-transform: capitalize;
+	background: rgba(255,255,255,0.5);
+}
+.modal-content{
+	align-items: center;
+	background: #222;
+	color: #fff;
+}
+
+	.modal-header h3{
+		color: rgb(115, 129, 247);
+	}
+	.modal label{
+		width: 100px;
+	}
+	#btn-approve-modal{
+		margin-right: 15px; 
+	}
+	.modal-footer{
+		flex-direction: column;
+	}
+	.errors{
+		padding: 10px;
+		color: red;
+	}
+
+	#deleteModal .modal-content{
+		padding: 30px;
+	}
+
+  
+  
